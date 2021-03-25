@@ -9,31 +9,27 @@
 		<form action = "login.php" method = "post">
 			<table>
 
-				<tr>
+				<tr>  
 					<td>Login:</td>
 					<td>
-						<input type="text" name="user">
+						<input type="text" name="murat" required="" onclick="checkPswd();">
 					</td>
 				</tr>
 
 				<tr>
 					<td>Password:</td>
 					<td>
-						<input type="password" name="1234">
+						<input type="password" name="pwd" required="" >
 					</td>
 				</tr>
-
-				<tr>
-					<td>
-						<input type="reset" name="SUBMIT" VALUE = "CLEAR">
-					</td>
-					<td>
-						<input type="submit" name="SUBMIT" >
-					</td>
-					
-				</tr>
-
 			</table>
+				
+				<button type="reset" class="clear_button" value="clear">Clear</button>
+				<form>
+         <button type="submit" formaction="https://murat-cv.herokuapp.com/">Submit</button>
+      </form>
+				
+			
 			
 		</form>
 	</center>
