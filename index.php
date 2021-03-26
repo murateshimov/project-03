@@ -12,7 +12,7 @@
 				<tr>  
 					<td>Login:</td>
 					<td>
-						<input type="text" name="login" required="" id = 'login'>
+						<input type="text" name="login" required="" id = "login">
 					</td>
 				</tr>
 
@@ -35,8 +35,8 @@
 	</center>
 	<script>
 		document.forms[0].onsubmit = function (e){
-		let login = document.getElementById('login').value;
-		let password = document.getElementById('pwd').value;
+		let login = document.getElementById("login").value;
+		let password = document.getElementById("pwd").value;
 			
 		if (login === "murat" && password === "1234")
 			alert ("welcome");
